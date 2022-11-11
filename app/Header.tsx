@@ -10,12 +10,10 @@ const Header: FC = () => {
       rounded"
       >
         <Link href="/" title="Home">
-          <h1 className="text-[26px] hover:text-black text-sky-400 underline">
-            IBM
-          </h1>
+          <h1 className="text-[27px] hover:text-black text-white">IBM</h1>
         </Link>
 
-        <div className="mt-1 group">
+        <div className="mt-[2px] group">
           <h1 className="text-2xl mb-2 lg:hidden border border-white/20 p-1 rounded">
             <AiOutlineMenu />
           </h1>

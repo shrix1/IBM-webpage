@@ -5,7 +5,7 @@ import { FC } from "react";
 const Home: FC = () => {
   return (
     <div>
-      <h1 className="text-sky-500 text-2xl">Hello</h1>
+      <h1 className="text-sky-500 text-center">HomePage</h1>
     </div>
   );
 };
