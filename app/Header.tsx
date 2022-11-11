@@ -10,7 +10,7 @@ const Header: FC = () => {
       rounded"
       >
         <Link href="/" title="Home">
-          <h1 className="text-[27px] hover:text-black text-white">IBM</h1>
+          <h1 className="text-[27px] hover:text-black text-sky-500">IBM</h1>
         </Link>
 
         <div className="mt-[2px] group">
@@ -21,7 +21,7 @@ const Header: FC = () => {
           <ul
             className="border border-white/50 bg-white/20 p-2 rounded absolute 
         flex-col group-hover:flex hidden transition-all lg:hidden
-        duration-500 ease-out delay-100 w-[120px] text-sxl"
+        duration-500 ease-out delay-100 w-[125px] text-sxl"
           >
             <Link href="/team" title="Team">
               <li className="hover:text-black hover:bg-white/75 rounded p-1">
@@ -33,9 +33,9 @@ const Header: FC = () => {
                 All Links
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/tech">
               <li className="hover:text-black hover:bg-white/75 rounded p-1">
-                Works
+                TechStacks
               </li>
             </Link>
           </ul>
@@ -45,18 +45,18 @@ const Header: FC = () => {
         <div className=" group hidden lg:inline">
           <ul className="flex gap-10 text-[18px]">
             <Link href="/team" title="Team">
-              <li className="hover:text-black hover:bg-white/75 rounded p-1">
+              <li className="hover:text-black hover:bg-white/75 rounded p-1 pr-2 pl-2">
                 Team
               </li>
             </Link>
             <Link href="/links" title="AllLinks">
-              <li className="hover:text-black hover:bg-white/75 rounded p-1">
+              <li className="hover:text-black hover:bg-white/75 rounded p-1 pr-2 pl-2">
                 All Links
               </li>
             </Link>
-            <Link href="/">
-              <li className="hover:text-black hover:bg-white/75 rounded p-1">
-                Works
+            <Link href="/tech">
+              <li className="hover:text-black hover:bg-white/75 rounded p-1 pr-2 pl-2">
+                TechStacks
               </li>
             </Link>
           </ul>
