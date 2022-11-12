@@ -33,7 +33,10 @@ const Home: FC = () => {
             </h2>
             <span className="text-[16px] underline text-sky-400 flex">
               <VscGithubAlt className="mr-2 mt-1" />
-              <Link href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900">
+              <Link
+                href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900"
+                target="blank"
+              >
                 Repository Link
               </Link>
             </span>
