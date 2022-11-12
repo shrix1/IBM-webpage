@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const Team: FC = () => {
   return (
-    <>
+    <main className="min-h-[85vh]">
       <h1 className="text-white text-center text-3xl mb-4 mt-2 font-sp">
         Meet the <span className="text-sky-500">Team</span>
       </h1>
@@ -51,7 +51,7 @@ const Team: FC = () => {
           </div>
         </main>
       </div>
-    </>
+    </main>
   );
 };
 
