@@ -3,7 +3,6 @@ import React, { FC } from "react";
 import { VscGithubAlt } from "react-icons/vsc";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { CiTwitter } from "react-icons/ci";
-import mee from ".//shri.webp";
 import Image from "next/image";
 import { TeamDetails } from "./TeamDetails";
 
@@ -43,13 +42,28 @@ const Team: FC = () => {
                     </div>
 
                     <div className="text-white mt-4 flex text-[28px] gap-[20px] mr-2 transition-all duration-500">
-                      <Link href={i.twitter} target="blank" title="Twitter">
+                      <Link
+                        // href={i.twitter}
+                        href="https://twitter.com/shriprasanna007"
+                        target="blank"
+                        title="Twitter"
+                      >
                         <CiTwitter className="text-4xl -mt-1 hover:text-sky-500" />
                       </Link>
-                      <Link href={i.github} target="blank" title="github">
+                      <Link
+                        // href={i.github}
+                        href="https://github.com/shrix1"
+                        target="blank"
+                        title="github"
+                      >
                         <VscGithubAlt className=" hover:text-sky-500" />
                       </Link>
-                      <Link href={i.linkedin} target="blank" title="github">
+                      <Link
+                        // href={i.linkedin}
+                        href="https://www.linkedin.com/in/shriprasanna-b-62aab1208/"
+                        target="blank"
+                        title="github"
+                      >
                         <SlSocialLinkedin className=" hover:text-sky-500" />
                       </Link>
                     </div>
