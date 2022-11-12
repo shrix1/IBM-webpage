@@ -3,8 +3,8 @@ import React, { FC } from "react";
 import { VscGithubAlt } from "react-icons/vsc";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { CiTwitter } from "react-icons/ci";
-// import shri from "../public/shri.webp";
-// import Image from "next/image";
+import mee from ".//shri.webp";
+import Image from "next/image";
 
 const Team: FC = () => {
   return (
@@ -26,7 +26,12 @@ const Team: FC = () => {
               className="w-[130px] relative border border-green-400 h-[130px] rounded-full 
           -top-[100px] left-5 overflow-hidden"
             >
-              <img src="" alt="images" width={100} height={100} />
+              <Image
+                src={mee}
+                alt="images"
+                className="aspect-square"
+                priority
+              />
             </div>
 
             <div className="text-white mt-4 flex text-[28px] gap-[20px] mr-2">
