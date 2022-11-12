@@ -16,9 +16,9 @@ const Team: FC = () => {
 
       <section className="flex justify-center items-center mt-10 ">
         <main className="flex flex-wrap  justify-evenly items-center w-[1000px] md:h-[60vh] ">
-          {TeamDetails.map((i) => {
+          {TeamDetails.map((i, idx) => {
             return (
-              <div className="flex justify-around items-center group">
+              <div className="flex justify-around items-center group" key={idx}>
                 <main className="border-2 border-white/50 w-[350px] h-[180px] rounded-md mt-[10px]">
                   <section className=" h-[120px] bg-white/40 group-hover:bg-gradient-to-r from-cyan-500 to-blue-500 ">
                     <h1

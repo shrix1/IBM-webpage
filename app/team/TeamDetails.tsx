@@ -1,7 +1,7 @@
-import shri from ".//shri.jpg";
 import kiran from ".//kiran.jpeg";
 import ram from ".//ram.jpg";
 import prav from ".//praveen.jpg";
+import shris from ".//shri.jpg";
 
 interface details {
   name: String;
@@ -13,8 +13,8 @@ interface details {
 
 const TeamDetails: details[] = [
   {
-    name: "shriprasanna",
-    photo: shri,
+    name: "Shriprasanna",
+    photo: shris,
     twitter: "https://twitter.com/shriprasanna007",
     github: "https://github.com/shrix1",
     linkedin: "https://www.linkedin.com/in/shriprasanna-b-62aab1208/",
