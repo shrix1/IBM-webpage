@@ -21,7 +21,7 @@ const Header: FC = () => {
           <ul
             className="border border-white/50 bg-white/20 p-2 rounded absolute 
         flex-col group-hover:flex hidden transition-all lg:hidden
-        duration-500 ease-out delay-100 w-[125px] text-sxl"
+        duration-500 ease-out delay-100 w-[115px] text-sxl"
           >
             <Link href="/team" title="Team">
               <li className="hover:text-black hover:bg-white/75 rounded p-1">
