@@ -8,7 +8,7 @@ import { VscGithubAlt } from "react-icons/vsc";
 const Home: FC = () => {
   return (
     <section className="md:max-h-[200vh]">
-      <main className="flex justify-around flex-col items-center p-3 md:flex-row md:min-h-[80vh] ">
+      <main className="flex justify-around flex-col items-center p-3 md:flex-row md:min-h-[86vh] ">
         <div className="">
           <Image
             src={home}
