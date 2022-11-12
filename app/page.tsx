@@ -8,12 +8,12 @@ import { VscGithubAlt } from "react-icons/vsc";
 const Home: FC = () => {
   return (
     <>
-      <main className="flex justify-around flex-col items-center p-3 md:flex-row">
-        <div>
+      <main className="flex justify-around flex-col items-center p-3 md:flex-row md:h-[80vh] md:mt-[-100px]">
+        <div className="">
           <Image
             src={home}
             alt="anal-image"
-            className="md:w-[390px] p-3 "
+            className="md:w-[700px] p-3"
             priority
           />
         </div>
@@ -42,13 +42,14 @@ const Home: FC = () => {
       </main>
       {/* ------------------------------- */}
       <section className="p-3 text-white font-pop">
-        <div className="mt-5">
-          <h1
+        <details className="mt-5">
+          <summary
             className="text-sky-500 text-xl bg-white/20 p-2 rounded mb-2 border-b-[4px]
           border-white/30 font-semibold tracking-[1px]"
           >
-            PROJECT DESCRIPTION
-          </h1>
+            Project description
+          </summary>
+
           <ul className=" list-inside list-disc flex flex-col gap-2 ">
             <li>
               Recent Covid-19 Pandemic has raised alarms over one of the most
@@ -77,15 +78,15 @@ const Home: FC = () => {
               optimal manner.
             </li>
           </ul>
-        </div>
+        </details>
 
-        <div className="mt-5 text-white font-pop">
-          <h1
-            className="text-sky-500 text-2xl  bg-white/20 p-2 rounded mb-2 border-b-[4px]
+        <details className="mt-5 text-white font-pop">
+          <summary
+            className="text-sky-500 text-xl  bg-white/20 p-2 rounded mb-2 border-b-[4px]
           border-white/30 font-semibold tracking-[2px]"
           >
             Goal
-          </h1>
+          </summary>
           <p>
             The goal is to accurately predict the Length of Stay for each
             patient on case by case basis so that the Hospitals can use this
@@ -93,7 +94,7 @@ const Home: FC = () => {
             The length of stay is divided into 11 different classes ranging from
             0-10 days to more than 100 days.
           </p>
-        </div>
+        </details>
 
         <div className="mt-5 text-white font-pop">
           <h1
