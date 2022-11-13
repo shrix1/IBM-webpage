@@ -8,7 +8,7 @@ import { TeamDetails } from "./TeamDetails";
 
 const Team: FC = () => {
   return (
-    <main className="md:min-h-[85vh] h-[100vh]">
+    <main className="md:min-h-[85vh] h-[90vh]">
       <h1 className="text-white text-center text-3xl mb-4 mt-2 font-sp md:text-4xl md:mt-3">
         Meet the <span className="text-sky-500">Team</span>
       </h1>
@@ -36,7 +36,7 @@ const Team: FC = () => {
                       <Image
                         src={i.photo}
                         alt="images"
-                        className="aspect-square grayscale-[90%] group-hover:grayscale-0 transition-all duration-300"
+                        className="aspect-square transition-all duration-300"
                         priority
                       />
                     </div>
