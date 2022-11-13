@@ -14,50 +14,50 @@ const AllLinks: FC = () => {
             <div className="flex justify-between items-center flex-wrap w-[250px] gap-4">
               <details>
                 <summary>Kirankumar</summary>
-                <p>
+                <div>
                   <div className="flex gap-5">
                     <Link href="/">1</Link>
                     <Link href="/"> 2</Link>
                     <Link href="/"> 3</Link>
                     <Link href="/"> 4</Link>
                   </div>
-                </p>
+                </div>
               </details>
 
               <details>
                 <summary>Shriprasanna</summary>
-                <p>
+                <div>
                   <div className="flex gap-5">
                     <Link href="/">1</Link>
                     <Link href="/"> 2</Link>
                     <Link href="/"> 3</Link>
                     <Link href="/"> 4</Link>
                   </div>
-                </p>
+                </div>
               </details>
 
               <details>
                 <summary>Praveen</summary>
-                <p>
+                <div>
                   <div className="flex gap-5">
                     <Link href="/">1</Link>
                     <Link href="/"> 2</Link>
                     <Link href="/"> 3</Link>
                     <Link href="/"> 4</Link>
                   </div>
-                </p>
+                </div>
               </details>
 
               <details>
                 <summary>RamSanjay</summary>
-                <p>
+                <div>
                   <div className="flex gap-5">
                     <Link href="/">1</Link>
                     <Link href="/"> 2</Link>
                     <Link href="/"> 3</Link>
                     <Link href="/"> 4</Link>
                   </div>
-                </p>
+                </div>
               </details>
             </div>
           </div>
