@@ -141,6 +141,54 @@ const AllLinks: FC = () => {
             </details>
           </div>
 
+          {/* 4 */}
+          <div className="border-2 w-[320px] p-2 rounded text-center">
+            <details open>
+              <summary>Project Design and Planning</summary>
+              <div className="flex flex-col gap-1">
+                <Link
+                  href="/links/idea"
+                  className="hover:underline text-sky-500"
+                >
+                  - Ideation Phase
+                </Link>
+                <Link href="/links/p1" className="hover:underline text-sky-500">
+                  - Project Design phase-1
+                </Link>
+                <Link href="/links/p2" className="hover:underline text-sky-500">
+                  - Project Design phase-2
+                </Link>
+                <Link
+                  href="/links/plan"
+                  className="hover:underline text-sky-500"
+                >
+                  - Project Planning
+                </Link>
+              </div>
+            </details>
+          </div>
+
+          {/* 5*/}
+          <div className="border-2 w-[320px] p-2 rounded text-center">
+            <details open>
+              <summary>Project_Development_Phase</summary>
+              <div className="flex flex-col gap-1">
+                <Link href="/links/s1" className="hover:underline text-sky-500">
+                  - Sprint 1
+                </Link>
+                <Link href="/links/s2" className="hover:underline text-sky-500">
+                  - Sprint 2
+                </Link>
+                <Link href="/links/s3" className="hover:underline text-sky-500">
+                  - Sprint 3
+                </Link>
+                <Link href="/links/s4" className="hover:underline text-sky-500">
+                  - Sprint 4
+                </Link>
+              </div>
+            </details>
+          </div>
+
           {/* 2 */}
           <div className="border-2 w-[320px] p-2 rounded text-center">
             <Link
@@ -159,33 +207,6 @@ const AllLinks: FC = () => {
             >
               Working with Datasets
             </Link>
-          </div>
-
-          {/* 4 */}
-          <div className="border-2 w-[320px] p-2 rounded text-center">
-            <details>
-              <summary>Project Design and Planning</summary>
-              <div className="flex flex-col gap-1">
-                <Link
-                  href="/links/idea"
-                  className="hover:underline text-sky-500"
-                >
-                  - Ideation Phase
-                </Link>
-                <Link href="/links/p1" className="hover:underline text-sky-500">
-                  - Project Design phase-1
-                </Link>
-                <Link href="/links/p2" className="hover:underline text-sky-500">
-                  -Project Design phase-2
-                </Link>
-                <Link
-                  href="/links/plan"
-                  className="hover:underline text-sky-500"
-                >
-                  - Project Planning
-                </Link>
-              </div>
-            </details>
           </div>
         </section>
       </main>
