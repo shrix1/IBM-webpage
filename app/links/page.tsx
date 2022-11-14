@@ -10,7 +10,7 @@ const AllLinks: FC = () => {
           {/* 1 */}
           <div
             className="border-2 w-[320px] min-h-[200px] max-h-[1000px] md:w-[1000px]
-          flex justify-evenly items-center flex-col p-2 rounded md:flex-row md:min-h-[100px] md:max-h-[250px]"
+          flex justify-evenly items-center flex-col p-2 rounded md:flex-row md:min-h-[150px]"
           >
             <details>
               <summary>Kirankumar</summary>
