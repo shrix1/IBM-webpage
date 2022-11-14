@@ -8,7 +8,7 @@ import { TeamDetails } from "./TeamDetails";
 
 const Team: FC = () => {
   return (
-    <main className="md:min-h-[85vh] h-[90vh]">
+    <main className="md:h-[85vh] h-[90vh]">
       <h1 className="text-white text-center text-3xl mb-4 mt-2 font-sp md:text-4xl md:mt-3">
         Meet the <span className="text-sky-500">Team</span>
       </h1>
