@@ -6,7 +6,7 @@ const AllLinks: FC = () => {
     <>
       <main className="min-h-[85vh] text-white p-3 font-sp">
         <h1 className="text-center text-sky-500 text-3xl">ALL LINKS</h1>
-        <section className="flex justify-between items-center flex-col p-3 h-[100vh]">
+        <section className="flex items-center flex-col p-3 h-[100vh] md:h-[60vh] gap-[40px] ">
           {/* 1 */}
           <div
             className="border-2 w-[320px] min-h-[200px] max-h-[1000px] md:w-[1000px]
@@ -142,6 +142,57 @@ const AllLinks: FC = () => {
           </div>
 
           {/* 2 */}
+          <div className="border-2 w-[320px] p-2 rounded text-center">
+            <Link
+              href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/JIRA_SOFTWARE/JIRA_PROGRESS.pdf"
+              className="hover:underline hover:text-sky-500"
+            >
+              Jira Software
+            </Link>
+          </div>
+
+          {/* 3*/}
+          <div className="border-2 w-[320px] p-2 rounded text-center">
+            <Link
+              href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/tree/main/WORKING_WITH_DATASETS"
+              className="hover:underline hover:text-sky-500"
+            >
+              Working with Datasets
+            </Link>
+          </div>
+
+          {/* 4 */}
+          <div className="border-2 w-[320px] p-2 rounded text-center">
+            <details>
+              <summary>Project Design and Planning</summary>
+              <div className="flex flex-col gap-1 flex-start ">
+                <Link
+                  href="/links/proj"
+                  className="hover:underline text-sky-500"
+                >
+                  - Ideation Phase
+                </Link>
+                <Link
+                  href="/links/proj"
+                  className="hover:underline text-sky-500"
+                >
+                  - Project Design phase-1
+                </Link>
+                <Link
+                  href="/links/proj"
+                  className="hover:underline text-sky-500"
+                >
+                  -Project Design phase-2
+                </Link>
+                <Link
+                  href="/links/proj"
+                  className="hover:underline text-sky-500"
+                >
+                  - Project Planning
+                </Link>
+              </div>
+            </details>
+          </div>
         </section>
       </main>
     </>
