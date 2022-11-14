@@ -35,6 +35,7 @@ const ProjectImage = () => {
               <h1>Empathy_map</h1>{" "}
               <Link
                 href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/Project_Design_and_Planning/Ideation_Phase/Empathy_map/EMPATHY.pdf"
+                target="blank"
                 title="see full pdf in github"
               >
                 <VscGithubAlt className="text-2xl" />
@@ -57,6 +58,7 @@ const ProjectImage = () => {
               <Link
                 href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/Project_Design_and_Planning/Ideation_Phase/Literature_survey/Literature_%20Survey.pdf"
                 title="see full pdf in github"
+                target="blank"
               >
                 <VscGithubAlt className="text-2xl" />
               </Link>
@@ -77,6 +79,7 @@ const ProjectImage = () => {
               <Link
                 href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/Project_Design_and_Planning/Ideation_Phase/Brainstroming_and_idea_template/Brainstrom_and_idea_template.pdf"
                 title="see full pdf in github"
+                target="blank"
               >
                 <VscGithubAlt className="text-2xl " />
               </Link>
@@ -96,6 +99,7 @@ const ProjectImage = () => {
               <h1>Problem_Statement</h1>
               <Link
                 href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/Project_Design_and_Planning/Ideation_Phase/Problem_Statement/Problem_Statement.pdf"
+                target="blank"
                 title="see full pdf in github"
               >
                 <VscGithubAlt className="text-2xl" />
@@ -104,7 +108,7 @@ const ProjectImage = () => {
 
             <Image
               src={prob}
-              alt="Problem_Statemen image"
+              alt="Problem_Statement image"
               priority
               width={500}
             />

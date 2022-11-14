@@ -37,6 +37,7 @@ const phaseOne = () => {
               <Link
                 href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/Project_Design_and_Planning/Project_Design_Phase_1/Proposed_Solution/Proposed_Solution.pdf"
                 title="see full pdf in github"
+                target="blank"
               >
                 <VscGithubAlt className="text-2xl" />
               </Link>
@@ -58,6 +59,7 @@ const phaseOne = () => {
               <Link
                 href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/Project_Design_and_Planning/Ideation_Phase/Brainstroming_and_idea_template/Brainstrom_and_idea_template.pdf"
                 title="see full pdf in github"
+                target="blank"
               >
                 <VscGithubAlt className="text-2xl " />
               </Link>
@@ -77,6 +79,7 @@ const phaseOne = () => {
               <h1>Proposed_Solution_fit</h1>
               <Link
                 href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/Project_Design_and_Planning/Project_Design_Phase_1/Proposed_Solution_fit/Problem_Solution_Fit.pdf"
+                target="blank"
                 title="see full pdf in github"
               >
                 <VscGithubAlt className="text-2xl" />

@@ -38,6 +38,7 @@ const SprintTwo = () => {
             href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/Project_Development_Phase/Sprint_2/Sprint_2%20(IBM%20cognos%20analytics).pdf"
             className="text-xl flex gap-1 "
             title="visit full sprint 1"
+            target="blank"
           >
             <VscGithubAlt className="mt-1" />
           </Link>
@@ -170,6 +171,7 @@ const SprintTwo = () => {
             href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/Project_Development_Phase/Sprint_2/Sprint_2%20(IBM%20cognos%20analytics).pdf"
             className="text-xl flex gap-1 "
             title="visit full sprint 1"
+            target="blank"
           >
             <VscGithubAlt className="mt-1" /> For more Expolration check here
           </Link>
@@ -179,6 +181,7 @@ const SprintTwo = () => {
             href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/Project_Development_Phase/Sprint_2/Sprint_2(Python_jupiter).pdf"
             className="text-xl flex gap-1 "
             title="visit full sprint 1"
+            target="blank"
           >
             <VscGithubAlt className="mt-1" /> Checking the Full Sprint Python
             Code

@@ -38,6 +38,7 @@ const PhaseTwo = () => {
               <Link
                 href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/Project_Design_and_Planning/Project_Design_Phase_2/Customer_Journey_Map.pdf"
                 title="see full pdf in github"
+                target="blank"
               >
                 <VscGithubAlt className="text-2xl" />
               </Link>
@@ -59,6 +60,7 @@ const PhaseTwo = () => {
               <Link
                 href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/Project_Design_and_Planning/Project_Design_Phase_2/Data_Flow_Diagrams.pdf"
                 title="see full pdf in github"
+                target="blank"
               >
                 <VscGithubAlt className="text-2xl " />
               </Link>
@@ -79,6 +81,7 @@ const PhaseTwo = () => {
               <Link
                 href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/Project_Design_and_Planning/Project_Design_Phase_2/Functional_Requirement.pdf"
                 title="see full pdf in github"
+                target="blank"
               >
                 <VscGithubAlt className="text-2xl" />
               </Link>
@@ -96,9 +99,11 @@ const PhaseTwo = () => {
           <div>
             <div className="flex  justify-between bg-slate-600 p-2 rounded">
               <h1>Technology_Architecture</h1>
+
               <Link
                 href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/Project_Design_and_Planning/Project_Design_Phase_2/Technology_Architecture.pdf"
                 title="see full pdf in github"
+                target="blank"
               >
                 <VscGithubAlt className="text-2xl" />
               </Link>

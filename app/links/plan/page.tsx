@@ -34,6 +34,7 @@ const PlanningPhase = () => {
               <Link
                 href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/Project_Design_and_Planning/Project_Design_Phase_2/Customer_Journey_Map.pdhttps://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/Project_Design_and_Planning/Project_planning/Milestones%26Activity_list.pdf"
                 title="see full pdf in github"
+                target="blank"
               >
                 <VscGithubAlt className="text-2xl" />
               </Link>
@@ -55,6 +56,7 @@ const PlanningPhase = () => {
               <Link
                 href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/Project_Design_and_Planning/Project_Design_Phase_2/Data_Flow_Diagrams.pdf"
                 title="see full pdf in github"
+                target="blank"
               >
                 <VscGithubAlt className="text-2xl " />
               </Link>

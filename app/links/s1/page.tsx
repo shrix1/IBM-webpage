@@ -35,6 +35,7 @@ const SprintOne = () => {
             href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/Project_Development_Phase/Sprint_1/Sprint_1.pdf"
             className="text-xl flex gap-1 "
             title="visit full sprint 1"
+            target="blank"
           >
             <VscGithubAlt className="mt-1" />
           </Link>
@@ -101,6 +102,7 @@ const SprintOne = () => {
             href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/Project_Development_Phase/Sprint_1/Sprint_1.pdf"
             className="text-xl flex gap-1 "
             title="visit full sprint 1"
+            target="blank"
           >
             <VscGithubAlt className="mt-1" /> Checking the Full Sprint here
           </Link>
