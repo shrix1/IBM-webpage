@@ -19,24 +19,28 @@ const AllLinks: FC = () => {
                   <Link
                     href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/tree/main/Assessments/Team_Lead"
                     className="hover:underline text-sky-500"
+                    target="blank"
                   >
                     - Assignments(1 to 4)
                   </Link>
                   <Link
                     href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/DATA_VISUALIZATION/Team_Leader/Data_visualization.pdf"
                     className="hover:underline text-sky-500"
+                    target="blank"
                   >
                     - Data Visulization
                   </Link>
                   <Link
                     href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/IBM_COGNOS_ANALYTICS/Team_Lead/IBM_COGNOS.pdf"
                     className="hover:underline text-sky-500"
+                    target="blank"
                   >
                     - IBM cognos
                   </Link>
                   <Link
                     href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/IBM_CLOUD/Team_Lead/IBM_Cloud.pdf"
                     className="hover:underline text-sky-500"
+                    target="blank"
                   >
                     - IBM Cloud
                   </Link>
@@ -51,24 +55,28 @@ const AllLinks: FC = () => {
                   <Link
                     href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/tree/main/Assessments/Team_Member_1"
                     className="hover:underline text-sky-500"
+                    target="blank"
                   >
                     - Assignments(1 to 4)
                   </Link>
                   <Link
                     href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/DATA_VISUALIZATION/Team_Member_1/Data_visualization.pdf"
                     className="hover:underline text-sky-500"
+                    target="blank"
                   >
                     - Data Visulization
                   </Link>
                   <Link
                     href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/IBM_COGNOS_ANALYTICS/Team_Member_1/IBM_COGNOS_ANALYTICS_ACC.pdf"
                     className="hover:underline text-sky-500"
+                    target="blank"
                   >
                     - IBM cognos
                   </Link>
                   <Link
                     href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/IBM_CLOUD/Team_Member_1/IBM_CLOUD_ACC.pdf"
                     className="hover:underline text-sky-500"
+                    target="blank"
                   >
                     - IBM Cloud
                   </Link>
@@ -83,24 +91,28 @@ const AllLinks: FC = () => {
                   <Link
                     href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/tree/main/Assessments/Team_Member_2"
                     className="hover:underline text-sky-500"
+                    target="blank"
                   >
                     - Assignments(1 to 4)
                   </Link>
                   <Link
                     href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/DATA_VISUALIZATION/Team_Member_2/Data_visualization.pdf"
                     className="hover:underline text-sky-500"
+                    target="blank"
                   >
                     - Data Visulization
                   </Link>
                   <Link
                     href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/IBM_COGNOS_ANALYTICS/Team_Member_2/Praveen_N_510919104030%20(2).pdf"
                     className="hover:underline text-sky-500"
+                    target="blank"
                   >
                     - IBM cognos
                   </Link>
                   <Link
                     href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/IBM_CLOUD/Team_Member_2/IBM_Cloud_Account.pdf"
                     className="hover:underline text-sky-500"
+                    target="blank"
                   >
                     - IBM Cloud
                   </Link>
@@ -115,24 +127,28 @@ const AllLinks: FC = () => {
                   <Link
                     href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/tree/main/Assessments/Team_Member_3"
                     className="hover:underline text-sky-500"
+                    target="blank"
                   >
                     - Assignments(1 to 4)
                   </Link>
                   <Link
                     href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/DATA_VISUALIZATION/Team_Member_3/Data_visualization.pdf"
                     className="hover:underline text-sky-500"
+                    target="blank"
                   >
                     - Data Visulization
                   </Link>
                   <Link
                     href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/IBM_COGNOS_ANALYTICS/Team_Member_3/IBM_Cognos_Analytics_Account.pdf"
                     className="hover:underline text-sky-500"
+                    target="blank"
                   >
                     - IBM cognos
                   </Link>
                   <Link
                     href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/IBM_CLOUD/Team_Member_3/IBM_Cloud_Account.pdf"
                     className="hover:underline text-sky-500"
+                    target="blank"
                   >
                     - IBM Cloud
                   </Link>
@@ -194,6 +210,7 @@ const AllLinks: FC = () => {
             <Link
               href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/JIRA_SOFTWARE/JIRA_PROGRESS.pdf"
               className="hover:underline hover:text-sky-500"
+              target="blank"
             >
               Jira Software
             </Link>
@@ -204,6 +221,7 @@ const AllLinks: FC = () => {
             <Link
               href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/tree/main/WORKING_WITH_DATASETS"
               className="hover:underline hover:text-sky-500"
+              target="blank"
             >
               Working with Datasets
             </Link>
