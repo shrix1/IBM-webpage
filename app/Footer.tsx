@@ -8,7 +8,9 @@ const Footer = () => {
         IBM
       </Link>
 
-      <h1>Data analytics projects made with love</h1>
+      <h1>
+        TEAM ID : <strong>PNT2022TMID39750</strong>
+      </h1>
     </footer>
   );
 };
