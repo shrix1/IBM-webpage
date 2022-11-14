@@ -165,27 +165,21 @@ const AllLinks: FC = () => {
           <div className="border-2 w-[320px] p-2 rounded text-center">
             <details>
               <summary>Project Design and Planning</summary>
-              <div className="flex flex-col gap-1 flex-start ">
+              <div className="flex flex-col gap-1">
                 <Link
-                  href="/links/proj"
+                  href="/links/idea"
                   className="hover:underline text-sky-500"
                 >
                   - Ideation Phase
                 </Link>
-                <Link
-                  href="/links/proj"
-                  className="hover:underline text-sky-500"
-                >
+                <Link href="/links/p1" className="hover:underline text-sky-500">
                   - Project Design phase-1
                 </Link>
-                <Link
-                  href="/links/proj"
-                  className="hover:underline text-sky-500"
-                >
+                <Link href="/links/p2" className="hover:underline text-sky-500">
                   -Project Design phase-2
                 </Link>
                 <Link
-                  href="/links/proj"
+                  href="/links/plan"
                   className="hover:underline text-sky-500"
                 >
                   - Project Planning
