@@ -2,6 +2,11 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import { VscGithubAlt } from "react-icons/vsc";
+import d1 from ".//d1.png";
+import d2 from ".//d2.png";
+import d3 from ".//d3.png";
+import d4 from ".//d4.png";
+import d5 from ".//d5.png";
 
 const SprintOne = () => {
   return (
@@ -29,7 +34,7 @@ const SprintOne = () => {
 
         <div className="flex justify-center items-center hover:text-sky-500 underline">
           <Link
-            href=""
+            href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/Project_Development_Phase/Sprint_3/Sprint_3.pdf"
             className="text-xl flex gap-1 "
             title="visit full sprint 1"
             target="blank"
@@ -46,49 +51,87 @@ const SprintOne = () => {
         </div>
 
         <div className=" flex justify-center items-center">
-          <section className="flex flex-col md:flex-row mt-5 md:w-[80%] md:gap-[30px] gap-7 ">
+          <section className="flex flex-col md:flex-row mt-5 md:w-[80%] md:gap-[30px] gap-7 flex-wrap justify-center items-center">
             {/* 1 */}
             <div>
               <div className="flex  justify-between bg-slate-600 p-2 rounded">
-                <h1>Data Collecting and Loading</h1>
+                <h1>Overview</h1>
               </div>
 
               <Image
-                src=""
+                src={d1}
                 alt="data Collection and Loading image"
                 priority
                 width={500}
+                className="md:w-[600px]"
               />
             </div>
 
             {/* 2 */}
             <div>
               <div className="flex  justify-between bg-slate-600 p-2 rounded">
-                <h1>Cleaning Null values</h1>
+                <h1>Department Analysis</h1>
               </div>
 
               <Image
-                src=""
+                src={d2}
                 alt="cleaning null values image"
                 priority
                 width={500}
+                className="md:w-[600px]"
               />
             </div>
 
             {/* 3*/}
             <div>
               <div className="flex  justify-between bg-slate-600 p-2 rounded">
-                <h1>Data Preparation</h1>
+                <h1>Loaction Wise Analysis</h1>
               </div>
 
-              <Image src="" alt="Data Preparation image" priority width={500} />
+              <Image
+                src={d3}
+                alt="Data Preparation image"
+                priority
+                width={500}
+                className="md:w-[600px]"
+              />
+            </div>
+
+            {/* 4 */}
+            <div>
+              <div className="flex  justify-between bg-slate-600 p-2 rounded">
+                <h1>Severity of illness </h1>
+              </div>
+
+              <Image
+                src={d4}
+                alt="Data Preparation image"
+                priority
+                width={500}
+                className="md:w-[600px]"
+              />
+            </div>
+
+            {/* 5 */}
+            <div>
+              <div className="flex  justify-between bg-slate-600 p-2 rounded">
+                <h1>Admission Deposit Analysis</h1>
+              </div>
+
+              <Image
+                src={d5}
+                alt="Data Preparation image"
+                priority
+                width={500}
+                className="md:w-[600px]"
+              />
             </div>
           </section>
         </div>
 
         <div className="flex justify-center items-center hover:text-sky-500 underline mt-5">
           <Link
-            href=""
+            href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/Project_Development_Phase/Sprint_3/Sprint_3.pdf"
             className="text-xl flex gap-1 "
             title="visit full sprint 1"
             target="blank"

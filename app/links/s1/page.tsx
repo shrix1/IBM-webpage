@@ -42,7 +42,7 @@ const SprintOne = () => {
         </div>
 
         <div className="text-xl text-center mt-5 md:text-2xl">
-          <h1>Thing need to be done here</h1>
+          <h1>Things need to be done here</h1>
           <ul className="text-[17px] md:text-xl text-sky-500 list-inside list-disc">
             <li>Data Collection</li>
             <li>Data Loading</li>
