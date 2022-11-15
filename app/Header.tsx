@@ -10,7 +10,10 @@ const Header: FC = () => {
       rounded"
       >
         <Link href="/" title="Home">
-          <h1 className="text-[27px] hover:text-black text-sky-500">IBM</h1>
+          <h1 className="text-xl hover:text-black text-sky-500">
+            Analytics for Hospitals <br className="md:hidden " />
+            Health-Care Data
+          </h1>
         </Link>
 
         <div className="mt-[2px] group">
