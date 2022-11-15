@@ -8,7 +8,7 @@ import { TeamDetails } from "./TeamDetails";
 
 const Team: FC = () => {
   return (
-    <main className="md:h-[85vh] h-[90vh]">
+    <main className="md:h-[110vh] h-[90vh]">
       <h1 className="text-white text-center text-3xl mb-4 mt-2 font-sp md:text-4xl md:mt-3">
         Meet the <span className="text-sky-500">Team</span>
       </h1>
@@ -44,7 +44,7 @@ const Team: FC = () => {
                     <div className="text-white mt-4 flex text-[28px] gap-[20px] mr-2 transition-all duration-500">
                       <Link
                         // href={i.twitter}
-                        href="https://twitter.com/shriprasanna007"
+                        href="https://twitter.com/"
                         target="blank"
                         title="Twitter"
                       >
@@ -52,7 +52,7 @@ const Team: FC = () => {
                       </Link>
                       <Link
                         // href={i.github}
-                        href="https://github.com/shrix1"
+                        href="https://github.com/"
                         target="blank"
                         title="github"
                       >
@@ -60,7 +60,7 @@ const Team: FC = () => {
                       </Link>
                       <Link
                         // href={i.linkedin}
-                        href="https://www.linkedin.com/in/shriprasanna-b-62aab1208/"
+                        href="https://www.linkedin.com/in/"
                         target="blank"
                         title="github"
                       >

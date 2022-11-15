@@ -4,7 +4,7 @@ import React, { FC } from "react";
 const AllLinks: FC = () => {
   return (
     <>
-      <main className="min-h-[85vh] text-white p-3 font-sp">
+      <main className="min-h-[100vh] text-white p-3 font-sp">
         <h1 className="text-center text-sky-500 text-3xl">ALL LINKS</h1>
         <section className="flex items-center flex-col p-3 h-[100vh] md:h-[60vh] gap-[40px] ">
           {/* 1 */}
@@ -224,6 +224,17 @@ const AllLinks: FC = () => {
               target="blank"
             >
               Working with Datasets
+            </Link>
+          </div>
+
+          {/* 4 */}
+          <div className="border-2 w-[320px] p-2 rounded text-center">
+            <Link
+              href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/tree/main/Final_Deliverables"
+              className="hover:underline hover:text-sky-500"
+              target="blank"
+            >
+              Final_Deliverables
             </Link>
           </div>
         </section>

@@ -33,9 +33,19 @@ const Header: FC = () => {
                 All Links
               </li>
             </Link>
-            <Link href="/tech">
+            <Link href="/links/s3">
               <li className="hover:text-black hover:bg-white/75 rounded p-1">
-                TechStacks
+                Dashboard
+              </li>
+            </Link>
+            <Link href="/links/s2">
+              <li className="hover:text-black hover:bg-white/75 rounded p-1">
+                Exploration
+              </li>
+            </Link>
+            <Link href="/links/s4">
+              <li className="hover:text-black hover:bg-white/75 rounded p-1">
+                Report / Story
               </li>
             </Link>
           </ul>
@@ -54,9 +64,19 @@ const Header: FC = () => {
                 All Links
               </li>
             </Link>
-            <Link href="/tech">
+            <Link href="/links/s3">
               <li className="hover:text-black hover:bg-white/75 rounded p-1 pr-2 pl-2">
-                TechStacks
+                Dashboard
+              </li>
+            </Link>
+            <Link href="/links/s2">
+              <li className="hover:text-black hover:bg-white/75 rounded p-1">
+                Exploration
+              </li>
+            </Link>
+            <Link href="/links/s4">
+              <li className="hover:text-black hover:bg-white/75 rounded p-1">
+                Report / Story
               </li>
             </Link>
           </ul>

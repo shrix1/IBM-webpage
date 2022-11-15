@@ -14,7 +14,7 @@ import e8 from ".//e8.png";
 const SprintTwo = () => {
   return (
     <>
-      <main className="min-h-[85vh] text-white p-3 font-sp">
+      <main className="min-h-[95vh] text-white p-3 font-sp">
         <div className="flex justify-between">
           <Link
             href="/links/s1"

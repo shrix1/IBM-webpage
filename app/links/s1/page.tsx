@@ -9,7 +9,7 @@ import dp from ".//dp.png";
 const SprintOne = () => {
   return (
     <>
-      <main className="min-h-[85vh] text-white p-3 font-sp">
+      <main className="min-h-[95vh] text-white p-3 font-sp">
         <div className="flex justify-between">
           <Link
             href="/links"
