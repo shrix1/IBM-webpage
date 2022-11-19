@@ -98,6 +98,22 @@ const SprintOne = () => {
           </section>
         </div>
 
+        {/* story */}
+        <div className="mt-8 flex justify-center items-center flex-col gap-6">
+          <h1 className="text-2xl md:text-4xl text-sky-500  ">Story</h1>
+          {/* video link */}
+          <iframe
+            width="390"
+            height="315"
+            src="https://www.youtube.com/embed/r9WP_yAaqH4"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="md:w-[600px] md:h-[400px]"
+          ></iframe>
+        </div>
+
         <div className="flex justify-center items-center hover:text-sky-500 underline mt-5">
           <Link
             href="https://github.com/IBM-EPBL/IBM-Project-17136-1659628900/blob/main/Project_Development_Phase/Sprint_4/Sprint_4_Report.pdf"
