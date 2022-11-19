@@ -4,7 +4,6 @@ import { VscGithubAlt } from "react-icons/vsc";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { CiTwitter } from "react-icons/ci";
 import Image from "next/image";
-import { TeamDetails } from "./TeamDetails";
 import shri from ".//shri.jpg";
 import kiran from ".//kiran.jpeg";
 import praveen from ".//praveen.jpg";
@@ -12,14 +11,14 @@ import ram from ".//ram.jpg";
 
 const Team: FC = () => {
   return (
-    <main className="md:h-[110vh] h-[90vh]">
+    <main className="md:h-[90vh] h-[110vh]">
       <h1 className="text-white text-center text-3xl mb-4 mt-2 font-sp md:text-4xl md:mt-3">
         Meet the <span className="text-sky-500">Team</span>
       </h1>
 
       <section className="flex justify-center items-center mt-10 ">
         <main className="flex flex-wrap justify-evenly items-center w-[1000px] md:h-[60vh] ">
-          <div className="flex justify-around items-center group flex-wrap">
+          <div className="flex justify-around items-center group flex-wrap gap-5">
             {/* 1 */}
             <main className="border-2 border-white/50 w-[350px] h-[180px] rounded-md mt-[10px]">
               <section className=" h-[120px] bg-white/40 group-hover:bg-gradient-to-r from-cyan-500 to-blue-500 ">

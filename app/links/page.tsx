@@ -4,7 +4,7 @@ import React, { FC } from "react";
 const AllLinks: FC = () => {
   return (
     <>
-      <main className="min-h-[100vh] text-white p-3 font-sp">
+      <main className="md:h-[100vh] text-white p-3 font-sp h-[110vh]">
         <h1 className="text-center text-sky-500 text-3xl">ALL LINKS</h1>
         <section className="flex items-center flex-col p-3 h-[100vh] md:h-[60vh] gap-[40px] ">
           {/* 1 */}
