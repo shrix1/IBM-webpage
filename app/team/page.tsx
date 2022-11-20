@@ -6,7 +6,7 @@ import { CiTwitter } from "react-icons/ci";
 import Image from "next/image";
 import shri from ".//shri.jpg";
 import kiran from ".//kiran.jpeg";
-import praveen from ".//praveen.jpg";
+import praveen from ".//prav-.jpg";
 import ram from ".//ram.jpg";
 
 const Team: FC = () => {
@@ -38,7 +38,7 @@ const Team: FC = () => {
                   <Image
                     src={shri}
                     alt="images"
-                    className="aspect-square transition-all duration-300"
+                    className="aspect-square "
                     priority
                   />
                 </div>
@@ -88,7 +88,7 @@ const Team: FC = () => {
                   <Image
                     src={kiran}
                     alt="images"
-                    className="aspect-square transition-all duration-300"
+                    className="aspect-square "
                     priority
                   />
                 </div>
@@ -138,7 +138,7 @@ const Team: FC = () => {
                   <Image
                     src={praveen}
                     alt="images"
-                    className="aspect-square transition-all duration-300"
+                    className="w-[130px]"
                     priority
                   />
                 </div>
@@ -188,7 +188,7 @@ const Team: FC = () => {
                   <Image
                     src={ram}
                     alt="images"
-                    className="aspect-square transition-all duration-300"
+                    className="aspect-square "
                     priority
                   />
                 </div>
