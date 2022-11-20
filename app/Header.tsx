@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React, { FC } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
+import Image from "next/image";
 
 const Header: FC = () => {
   return (
